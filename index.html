@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" aria-label="QR code card html tag">
+<html lang="en" role="application">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -23,9 +23,9 @@
   <div id="container" role="container">
     <div class="card">
       <div class="qr-container">
-        <img src="./images/image-qr-code.png" alt="qr-code" role="Image" aria-label="QR code" />
+        <img src="./images/image-qr-code.png" alt="qr-code" aria-labelledby="code" aria-describedby="qr code"/>
       </div>
-      <div class="card-content" role="content" aria-label="card content">
+      <div class="card-content" role="contentinfo" >
         <h1>Improve your front-end skills by building projects</h1>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div>
